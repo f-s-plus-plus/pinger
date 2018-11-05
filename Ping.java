@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Ping {
     public static void main(String[] args) throws IOException {
         //default ip address
-        String host = "68.183.118.2";
+        String host = "";
         ArrayList<Integer> portList = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.print("What is the ip? ");
